@@ -185,7 +185,7 @@ class RazerBlackWidowChroma(_MacroKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*BlackWidow_Chroma(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x0203
+    USB_PID = 0x0221
     HAS_MATRIX = True
     DEDICATED_MACRO_KEYS = True
     MATRIX_DIMS = [6, 22]  # 6 Rows, 22 Cols
